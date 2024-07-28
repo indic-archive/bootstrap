@@ -1,0 +1,16 @@
+// These are customization to use in IDAF Granthapura sites including gpura.org
+
+// Variable overrides first
+$primary: #d65600;
+
+$link-decoration:       none !default;
+// $link-hover-decoration: none !default;
+
+@mixin gpuraBanner($file) {
+  /*!
+   * Customized for IDAF Granthapura.
+   */
+}
+@include gpuraBanner("");
+// Then import Bootstrap
+@import "bootstrap";
